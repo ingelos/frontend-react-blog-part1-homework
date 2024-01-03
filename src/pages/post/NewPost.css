@@ -1,0 +1,30 @@
+
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.new-post-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 5px 0 15px 0;
+}
+
+button {
+    background-color: #38E991;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 600;
+}

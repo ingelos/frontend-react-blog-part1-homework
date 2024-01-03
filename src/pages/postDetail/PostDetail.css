@@ -1,0 +1,34 @@
+.post-detail-section {
+    background-color: white;
+}
+
+.post-detail {
+    display: flex;
+    flex-basis: 700px;
+    align-items: flex-start;
+}
+
+.post-detail h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.post-detail h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.link-back ,
+.post-detail-read-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    color: #38E991;
+    text-decoration: none;
+}
+
+.link-back p {
+    color: #38E991;
+    font-weight: 600;
+}

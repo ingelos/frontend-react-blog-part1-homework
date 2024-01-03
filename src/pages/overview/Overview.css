@@ -1,0 +1,48 @@
+
+
+.overview-section {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 16px;
+    list-style: none;
+    flex-basis: 500px;
+}
+
+.post-item {
+    flex-basis: 400px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+
+.post-title {
+    text-decoration: none;
+    color: black;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #38E991;
+}
+
+/*h1 {*/
+/*    margin-top: 150px;*/
+/*}*/
+
+/*h2 {*/
+/*    text-decoration: none;*/
+/*    font-size: 18px;*/
+/*}*/
