@@ -1,0 +1,14 @@
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    text-align: right;
+}
+
+.billboard-logo {
+    max-width: 500px;
+}
+

@@ -1,12 +1,32 @@
 import './App.css'
-import logo from './assets/logo-white.png'
+import {Route, Routes} from "react-router-dom";
+import Home from './pages/home/Home.jsx';
+import Overview from './pages/overview/Overview.jsx';
+import NewPost from './pages/post/NewPost.jsx';
+import NotFound from './pages/notFound/NotFound';
+import Navigation from "./components/navigation/Navigation.jsx";
+import PostDetail from './pages/postDetail/PostDetail.jsx'
 
 function App() {
+
     return (
-        <div className="page-container">
-            <img src={logo} alt="Company logo"/>
-            <h1>Begin hier met het maken van jouw blog-applicatie!</h1>
-        </div>
+        <>
+            <section className='main outer-container'>
+            <Navigation/>
+                <main>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/new" element={<NewPost/>}/>
+                <Route path="/posts" element={<Overview/>}/>
+                <Route path="/posts/:id" element={<PostDetail/>}/>
+                <Route path="*" element={<NotFound/>}/>
+            </Routes>
+                </main>
+            </section>
+            <footer>
+                Blogventure © 2023 - ontwikkeld voor NOVI Hogeschool
+            </footer>
+        </>
     )
 }
 
