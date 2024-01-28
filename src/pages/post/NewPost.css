@@ -28,3 +28,7 @@ button {
     padding: 10px;
     font-weight: 600;
 }
+
+.error-message {
+    color: red;
+}
